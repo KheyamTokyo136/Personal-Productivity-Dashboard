@@ -1,16 +1,36 @@
-# React + Vite
+# Flowly – Personal Productivity Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Flowly is a modern and responsive personal productivity dashboard built with React.js and Tailwind CSS. It helps users organize daily tasks, manage habits, stay focused, and monitor productivity from one simple application.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 📊 **Dashboard** – View an overview of tasks, habits, focus sessions, and productivity.
+- 📝 **Daily Planner** – Create, categorize, prioritize, complete, and delete daily tasks with High, Medium, or Low priority.
+- 🔥 **Habits & Routines** – Create habits, mark them as completed, and track daily streaks.
+- ⏱️ **Focus Timer** – Use focused work sessions with short and long breaks.
+- 📈 **Analytics** – View productivity and activity information.
+- ⚙️ **Settings** – Manage profile information and application preferences.
+- 🌙 **Dark & Light Mode** – Switch the entire application between light and dark themes.
+- 💾 **LocalStorage** – Save tasks, habits, theme preferences, and profile information in the browser.
+- 📱 **Responsive Design** – Designed for different screen sizes.
 
-## React Compiler
+## Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript
+- Tailwind CSS
+- React Router
+- Context API
+- Lucide React
+- LocalStorage
+- Vite
 
-## Expanding the ESLint configuration
+## Project Purpose
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Flowly was created as a practical frontend development project to strengthen my skills in React.js and modern web development. It demonstrates component-based development, state management, routing, reusable components, LocalStorage, responsive design, and interactive user interfaces.
+
+## Future Improvements
+
+Future versions may include authentication, cloud database integration, reminders, notifications, advanced analytics, calendar integration, drag-and-drop tasks, and multi-device synchronization.
+
+**Flowly – Organize tasks, build better habits, and stay focused.**
