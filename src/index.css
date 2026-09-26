@@ -1,0 +1,211 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+/* =========================================
+   GLOBAL DARK MODE
+   ========================================= */
+
+.dark body {
+  background-color: #020617;
+  color: #f8fafc;
+}
+
+
+/* White backgrounds */
+
+.dark .bg-white {
+  background-color: #0f172a !important;
+}
+
+
+/* Light page backgrounds */
+
+.dark .bg-slate-50 {
+  background-color: #020617 !important;
+}
+
+.dark .bg-slate-100 {
+  background-color: #1e293b !important;
+}
+
+
+/* Text */
+
+.dark .text-slate-900 {
+  color: #f8fafc !important;
+}
+
+.dark .text-slate-800 {
+  color: #e2e8f0 !important;
+}
+
+.dark .text-slate-700 {
+  color: #cbd5e1 !important;
+}
+
+.dark .text-slate-600 {
+  color: #cbd5e1 !important;
+}
+
+.dark .text-slate-500 {
+  color: #94a3b8 !important;
+}
+
+
+/* Borders */
+
+.dark .border-slate-200 {
+  border-color: #334155 !important;
+}
+
+.dark .border-slate-300 {
+  border-color: #475569 !important;
+}
+
+
+/* Inputs */
+
+.dark input,
+.dark select,
+.dark textarea {
+  background-color: #1e293b !important;
+  color: #f8fafc !important;
+  border-color: #475569 !important;
+}
+
+
+/* Placeholder */
+
+.dark input::placeholder {
+  color: #94a3b8;
+}
+
+
+/* Hover backgrounds */
+
+.dark .hover\:bg-slate-100:hover {
+  background-color: #1e293b !important;
+}
+
+.dark .hover\:bg-slate-50:hover {
+  background-color: #1e293b !important;
+}
+
+
+/* =========================================
+   SMOOTH TRANSITION
+   ========================================= */
+
+body,
+div,
+nav,
+section,
+main,
+button,
+input,
+select,
+textarea {
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
+}/* ================= GLOBAL DARK MODE ================= */
+
+.dark body {
+  background-color: #020617 !important;
+  color: #f8fafc !important;
+}
+
+
+/* White backgrounds */
+
+.dark .bg-white {
+  background-color: #0f172a !important;
+}
+
+
+/* Slate backgrounds */
+
+.dark .bg-slate-50 {
+  background-color: #020617 !important;
+}
+
+.dark .bg-slate-100 {
+  background-color: #1e293b !important;
+}
+
+
+/* Text */
+
+.dark .text-slate-900 {
+  color: #f8fafc !important;
+}
+
+.dark .text-slate-800 {
+  color: #e2e8f0 !important;
+}
+
+.dark .text-slate-700 {
+  color: #cbd5e1 !important;
+}
+
+.dark .text-slate-600 {
+  color: #cbd5e1 !important;
+}
+
+.dark .text-slate-500 {
+  color: #94a3b8 !important;
+}
+
+
+/* Borders */
+
+.dark .border-slate-200 {
+  border-color: #334155 !important;
+}
+
+.dark .border-slate-300 {
+  border-color: #475569 !important;
+}
+
+
+/* Inputs */
+
+.dark input,
+.dark select,
+.dark textarea {
+  background-color: #1e293b !important;
+  color: #f8fafc !important;
+  border-color: #475569 !important;
+}
+
+.dark input::placeholder {
+  color: #94a3b8 !important;
+}
+
+
+/* Common light cards */
+
+.dark .bg-slate-50 {
+  background-color: #020617 !important;
+}
+
+
+/* Smooth transition */
+
+body,
+div,
+nav,
+main,
+section,
+button,
+input,
+select,
+textarea {
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
