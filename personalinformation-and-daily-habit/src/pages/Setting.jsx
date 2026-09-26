@@ -35,7 +35,8 @@ const Setting = () => {
 
 
       <main className="
-        ml-[20%]
+        ml-16
+        lg:ml-[20%]
         pt-[70px]
         min-h-screen
       ">
@@ -120,6 +121,8 @@ const Setting = () => {
                   py-3
                   rounded-xl
                   font-semibold
+                  w-full
+                  sm:w-auto
                 "
               >
 
@@ -231,6 +234,8 @@ const Setting = () => {
                     py-3
                     rounded-xl
                     font-semibold
+                    w-full
+                    sm:w-auto
                   "
                 >
                   Save Changes

@@ -129,7 +129,7 @@ const FocusTimer = () => {
       <Navbar title="Focus Timer" />
 
 
-      <main className="ml-[20%] pt-[70px] min-h-screen bg-slate-50">
+      <main className="ml-16 lg:ml-[20%] pt-[70px] min-h-screen bg-slate-50">
 
         <div className="px-4 sm:px-6 lg:px-8 py-6">
 

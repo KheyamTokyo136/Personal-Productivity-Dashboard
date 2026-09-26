@@ -103,7 +103,7 @@ const Analytics = () => {
 
       {/* ================= MAIN ================= */}
 
-      <main className="ml-[20%] pt-[70px] min-h-screen">
+      <main className="ml-16 lg:ml-[20%] pt-[70px] min-h-screen">
 
         <div className="px-4 sm:px-6 lg:px-9 py-5">
 
